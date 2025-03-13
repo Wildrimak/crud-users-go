@@ -1,0 +1,38 @@
+# Diretório do Módulo Go
+/go.mod
+/go.sum
+
+# Binários e Compilados
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+*.a
+
+# Diretórios de Build e Cache
+/bin/
+/pkg/
+/build/
+/tmp/
+vendor/
+
+# Arquivos Temporários do Go
+*.test
+*.log
+*.cover
+*.prof
+
+# Dependências baixadas pelo Go Modules (opcional)
+go.work
+go.work.sum
+
+# Configurações do Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+docker-compose.override.yml
+.env
